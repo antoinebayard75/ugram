@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { HealthService } from './health.service';
-import { HealthResponse } from '@ugram/shared-types';
+import { HealthResponse } from '@shared-types';
 
 @Controller('health')
 export class HealthController {

@@ -1,7 +1,7 @@
-import { HealthResponse } from '@ugram/shared-types';
+import { HealthResponse } from '@shared-types';
 import React from 'react';
 import backend from '../../api';
-import { AxiosResponse } from 'axios/index';
+import { AxiosResponse } from 'axios';
 
 export function Health() {
     const [serverStatus, setServerStatus] = React.useState<HealthResponse>({ message: "down" });

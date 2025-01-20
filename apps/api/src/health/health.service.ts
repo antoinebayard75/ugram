@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { HealthResponse } from '@ugram/shared-types';
+import { HealthResponse } from '@shared-types';
 
 @Injectable()
 export class HealthService {
